@@ -1,0 +1,33 @@
+{
+  "name": "turmadapelada-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turmadapelada/Turma-da-Pelada.git"
+  },
+  "keywords": [
+    "Football",
+    "Futebol",
+    "Soccer"
+  ],
+  "author": "Turma da Pelada Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turmadapelada/Turma-da-Pelada/issues"
+  },
+  "homepage": "https://github.com/turmadapelada/Turma-da-Pelada#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "mongoose": "^4.13.4",
+    "morgan": "^1.9.0",
+    "node-restful": "^0.2.6"
+  }
+}
