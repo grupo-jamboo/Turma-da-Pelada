@@ -20,6 +20,9 @@ app.use(compression());
 app.use(bodyParser.urlencoded({'extended': true}));
 app.use(bodyParser.json());
 
+// Routes
+require('./src/routes')(app);
+
 // handle 404 requests
 app.use((req, res) => {
     res.status(404).send('Not found :(');
@@ -33,6 +36,3 @@ promise.then((db) => {
 app.listen(port, () => {
     console.log('We are listening on port ' + port);
 });
-
-// Routes
-require('./src/routes')(app);

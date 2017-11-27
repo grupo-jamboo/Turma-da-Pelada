@@ -4,7 +4,7 @@ const mongooseSchema = require('../models/userSchema');
 class UserRouter {
     constructor(app) {
         this.resource = app.resource = restful.model('user', mongooseSchema).methods(['get', 'post', 'put', 'delete']);
-        this.resource.register(app, '/api/users');
+        this.resource.register(app, '/api/user');
     }
 
     static register(app) {

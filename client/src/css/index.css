@@ -1,0 +1,17 @@
+* {
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.login-container{
+  text-align: center;
+  padding: 54px;
+  width: 300px;
+}
+
+.input-wrap{
+  margin: auto;
+  width: 250px;
+  margin-top: 5px;
+}
+
